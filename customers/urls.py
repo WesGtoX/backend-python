@@ -6,8 +6,8 @@ from rest_framework import routers
 
 # Routers provide an easy way of automatically determining the URL conf.
 router = routers.DefaultRouter()
-router.register(r'customers', CustomersViewSet)
 router.register(r'user', UsersViewSet)
+router.register(r'customers', CustomersViewSet)
 
 urlpatterns = [
     path('', include(router.urls)),
