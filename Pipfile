@@ -13,6 +13,9 @@ markdown = "*"
 gunicorn = "*"
 pylint = "*"
 python-decouple = "*"
+phonenumbers = "*"
+django-phonenumber-field = "*"
+django-localflavor = "*"
 
 [requires]
 python_version = "3.7"
