@@ -38,10 +38,15 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    # install apps
+    'rest_framework',
+    'rest_framework.authtoken',
+    'corsheaders',
     'phonenumber_field',
     'localflavor',
+    # my apps
     'customers',
-    'rest_framework',
+
 ]
 
 MIDDLEWARE = [

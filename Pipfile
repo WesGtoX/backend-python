@@ -16,6 +16,7 @@ python-decouple = "*"
 phonenumbers = "*"
 django-phonenumber-field = "*"
 django-localflavor = "*"
+django-cors-headers = "*"
 
 [requires]
 python_version = "3.7"
