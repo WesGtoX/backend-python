@@ -1,5 +1,5 @@
 """
-WSGI config for client_management project.
+WSGI config for customer_management project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'client_management.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'customer_management.settings')
 
 application = get_wsgi_application()

@@ -1,6 +1,6 @@
 from django.contrib import admin
-from .models import Client
+from .models import Customers
 
 
 # Adding Client to show in admin page.
-admin.site.register(Client)
+admin.site.register(Customers)
