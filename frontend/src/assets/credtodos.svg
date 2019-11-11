@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW 2018 (64 Bit) -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="43.3492mm" height="43.3492mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 4334.92 4334.92"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil1 {fill:#009C7E}
+    .fil2 {fill:#79C100}
+    .fil0 {fill:#B8D983}
+    .fil4 {fill:#009C7E;fill-opacity:0.501961}
+    .fil5 {fill:#79C100;fill-opacity:0.501961}
+    .fil3 {fill:#B8D983;fill-opacity:0.501961}
+   ]]>
+  </style>
+ </defs>
+ <g id="Camada_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <ellipse class="fil0" cx="1234.94" cy="1250.76" rx="1234.94" ry="1234.93"/>
+  <ellipse class="fil1" cx="1234.94" cy="3084.16" rx="1234.94" ry="1234.93"/>
+  <ellipse class="fil2" cx="2977.07" cy="2075.48" rx="1357.86" ry="1357.85"/>
+  <path class="fil3" d="M1234.94 15.83c682.06,0 1234.95,552.88 1234.95,1234.93 0,682.05 -552.89,1234.93 -1234.95,1234.93 -682.05,0 -1234.94,-552.88 -1234.94,-1234.93 0,-682.05 552.89,-1234.93 1234.94,-1234.93z"/>
+  <path class="fil4" d="M1234.94 1849.23c682.06,0 1234.95,552.88 1234.95,1234.93 0,682.05 -552.89,1234.93 -1234.95,1234.93 -682.05,0 -1234.94,-552.88 -1234.94,-1234.93 0,-682.05 552.89,-1234.93 1234.94,-1234.93z"/>
+  <path class="fil5" d="M2977.07 717.63c749.95,0 1357.86,607.91 1357.86,1357.85 0,749.93 -607.91,1357.84 -1357.86,1357.84 -749.95,0 -1357.87,-607.91 -1357.87,-1357.84 0,-749.94 607.92,-1357.85 1357.87,-1357.85z"/>
+ </g>
+</svg>
