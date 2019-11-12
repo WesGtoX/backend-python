@@ -2,7 +2,10 @@ import React from "react"
 import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom"
 
 import { isAuthenticated } from "./services/auth"
-import SignUp from "./pages/SignUp";
+import SignUp from "./pages/SignUp"
+import SignIn from "./pages/SignIn"
+import Customer from "./pages/Customer"
+import Customers from "./pages/Customers"
 
 const PrivateRoute = ({ component: Component, ...rest }) => (
   <Route
@@ -20,9 +23,10 @@ const PrivateRoute = ({ component: Component, ...rest }) => (
 const Routes = () => (
   <BrowserRouter>
     <Switch>
-      <Route exact path="/" component={() => <h1>Entrar</h1>} />
+      <Route exact path="/" component={SignIn} />
       <Route path="/signup" component={SignUp} />
-      <PrivateRoute path="/app" component={() => <h1>App</h1>} />
+      <PrivateRoute path="/customer" component={Customer} />
+      <PrivateRoute path="/customers" component={Customers} />
       <Route path="*" component={() => <h1>Page not found</h1>} />
     </Switch>
   </BrowserRouter>
