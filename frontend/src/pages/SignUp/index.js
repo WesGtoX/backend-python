@@ -1,7 +1,8 @@
 import React, { Component } from "react"
-import { Link } from "react-router-dom"
+import { Link, withRouter } from "react-router-dom"
 
 import Logo from "../../assets/credtodos.svg"
+import api from "../../services/api"
 
 import { Form, Container } from "./styles"
 import { GlobalStyle } from "../../styles/global"
@@ -14,9 +15,20 @@ class SignUp extends Component {
     error: ""
   }
 
-  handleSignUp = e => {
+  handleSignUp = async e => {
     e.preventDefault()
-    alert("Eu vou te registrar")
+    const { username, email, password } = this.state
+    if (!username || !email || !password) {
+      this.setState({ error: "Preencha todos os dados para se cadastrar" })
+    } else {
+      try {
+        await api.post("/api/v1/user/", { username, email, password })
+        this.props.history.push("/")
+      } catch (err) {
+        console.log(err)
+        this.setState({ error: "Ocorreu um erro ao registrar sua conta. T.T" })
+      }
+    }
   }
 
   render() {
@@ -50,4 +62,4 @@ class SignUp extends Component {
   }
 }
 
-export default SignUp
+export default withRouter(SignUp)

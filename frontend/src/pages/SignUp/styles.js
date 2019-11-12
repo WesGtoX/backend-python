@@ -9,7 +9,7 @@ export const Container = styled.div`
 
 export const Form = styled.form`
   width: 400px;
-  background: #fff;
+  background: #f7f7f7;
   padding: 20px;
   display: flex;
   flex-direction: column;
